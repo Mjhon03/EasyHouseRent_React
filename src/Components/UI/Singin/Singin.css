@@ -39,14 +39,16 @@
 form input{
     padding:2% 0% 2% 0%;
     border:none;
-    width:55%;
+    width:70%;
+    background-color:#FFFFFF;
+    border:1px solid #DCDCDC;
 }
 .btnSingUp{
     border:none;
     background-color:rgb(105, 185, 157);
     padding:5px 20px 5px 20px;
     cursor: pointer;
-    margin-top:5%;
+    margin-top:10%;
 }
 .btnSingUp:hover{
     background-color:rgb(74, 131, 111);
@@ -56,4 +58,9 @@ form p{
 }
 form{
     padding:10%;
+}
+.formSingIn p{
+    text-align:justify;
+    font-size:12px;
+    margin-left:15%;
 }

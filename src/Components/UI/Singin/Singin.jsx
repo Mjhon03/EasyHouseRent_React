@@ -19,13 +19,13 @@ export const Singin = () => {
                         <form className="formSingIn" action="" method="">
 
                             <b><p>NAME</p></b>
-                            <input type="text" name="name" placeholder="Name:" ></input>
+                            <input type="text" name="name" ></input>
 
                             <b><p>EMAIL</p></b>
-                            <input type="text" name="email" placeholder="Email:" ></input>
+                            <input type="text" name="email" ></input>
 
                             <b><p>PASSWORD</p></b>
-                            <input type="password" name="password" placeholder="Password:" ></input>
+                            <input type="password" name="password" ></input>
 
                             <b><p>DATE OF BIRTH</p></b>
                             <input type="date" name="date" ></input><br/><br/>
