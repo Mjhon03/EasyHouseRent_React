@@ -82,16 +82,16 @@ export const Singin = () => {
                             <b><p>DATE OF BIRTH</p></b>
                             <input type="text" name="fechaNacimiento" placeholder="aaaa-mm-dd" onChange={handleChange}></input>
 
-                            <b><p>ESTADO</p></b>
+                            <b><p>STATE</p></b>
                             <input type="text" name="estado" onChange={handleChange} ></input>
 
-                            <b><p>DEPARTAMENTO</p></b>
+                            <b><p>DEPARTMENT</p></b>
                             <input type="number" name="departamento" onChange={handleChange}></input>
 
-                            <b><p>MUNICIPIO</p></b>
+                            <b><p>MUNICIPALITY</p></b>
                             <input type="number" name="municipio" onChange={handleChange}></input><br/>
 
-                            <button className="btnSingUp" onClick={()=>petitionPost()}><b>Sing Up</b></button>
+                            <button className="btnSingUp" onClick={()=>petitionPost()}><b>Sign In</b></button>
 
                         </form>
 
